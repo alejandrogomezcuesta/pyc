@@ -1,5 +1,5 @@
-site_name: PYC - Apuntes de programación
-site_description: Ejercicios y materiales de aprendizaje de programación
+site_name: Programación y Computación
+site_description: PYC - 2º de Bachillerato
 site_url: https://alejandrogomezcuesta.github.io/pyc/
 repo_url: https://github.com/alejandrogomezcuesta/pyc
 repo_name: alejandrogomezcuesta/pyc
@@ -40,7 +40,6 @@ plugins:
   - search:
       lang:
         - es
-        - en
 
 markdown_extensions:
   - admonition
