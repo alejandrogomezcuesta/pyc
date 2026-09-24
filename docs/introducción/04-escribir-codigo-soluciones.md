@@ -1,6 +1,4 @@
-# Sesión 1: Escritura de Código en Python (soluciones)
-
-## PARTE 2: Ejercicios de Escritura de Código
+# Escritura de Código en Python (soluciones)
 
 > Después de cada enunciado aparece una posible solución. Puede haber otras soluciones correctas.
 

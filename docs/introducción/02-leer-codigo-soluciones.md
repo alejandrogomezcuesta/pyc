@@ -1,4 +1,4 @@
-# Sesión 1: Lectura de Código y Trazas (soluciones)
+# Lectura de Código y Trazas (soluciones)
 
 > Cada tabla muestra el estado de las variables después de ejecutar cada instrucción relevante.
 

@@ -1,6 +1,6 @@
-# Sesión 1: Lectura de Código y Trazas (CPU Humana)
+# Lectura de Código y Trazas (CPU Humana)
 
-## PARTE 1: Lectura de Código y Trazas (¿Qué hace el ordenador?)
+## Lectura de Código y Trazas (¿Qué hace el ordenador?)
 
 > **Instrucciones:** No uses el ordenador. Lee el código en papel, sigue el flujo de ejecución paso a paso y responde a lo que se pide en cada reto.
 

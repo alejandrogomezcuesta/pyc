@@ -1,4 +1,4 @@
-# Sesión 1: Escritura de Código en Python
+# Escritura de Código en Python
 
 ## PARTE 2: Ejercicios de Escritura de Código
 
