@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://triangulo.gd" id="1_script"]
+
+[node name="Triangulo" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = 40.0
+offset_right = -40.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="BaseLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Base"
+
+[node name="BaseInput" type="LineEdit" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+placeholder_text = "10"
+
+[node name="AlturaLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Altura"
+
+[node name="AlturaInput" type="LineEdit" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+placeholder_text = "5"
+
+[node name="CalcularButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "Calcular área"
+
+[node name="ResultadoLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Resultado: -"
