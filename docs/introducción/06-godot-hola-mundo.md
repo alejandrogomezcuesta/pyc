@@ -1,4 +1,4 @@
-# Hola, mundo en Godot
+# Hola mundo, en Godot
 
 <!-- markdownlint-disable MD010 -->
 
