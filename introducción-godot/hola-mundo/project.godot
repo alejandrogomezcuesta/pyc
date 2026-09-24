@@ -1,0 +1,19 @@
+; Engine configuration file.
+; Godot project for exercise 06.
+
+config_version=5
+
+[application]
+config/name="Hola Mundo Godot"
+run/main_scene="res://hola-mundo.tscn"
+config/features=PackedStringArray("4.7")
+
+[display]
+window/size/viewport_width=700
+window/size/viewport_height=450
+window/size/window_width_override=700
+window/size/window_height_override=450
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

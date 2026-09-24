@@ -15,7 +15,7 @@ El flujo básico de trabajo es el siguiente:
 5. Se adjunta un script GDScript al nodo que controla la escena.
 6. Al ejecutar la escena, Godot crea los nodos, llama a `_ready()` y espera acciones de la persona usuaria, como pulsar un botón.
 
-En los ejercicios de [práctica con cinco ejercicios independientes](06-ejercicios-godot.md), el botón emite la señal `pressed`. El script conecta esa señal con una función, lee el texto de los `LineEdit`, realiza la operación y cambia el texto del `Label` de resultado.
+En los ejercicios de [práctica con cinco ejercicios independientes](07-ejercicios-godot.md), el botón emite la señal `pressed`. El script conecta esa señal con una función, lee el texto de los `LineEdit`, realiza la operación y cambia el texto del `Label` de resultado.
 
 ## Relación con la programación orientada a objetos
 
