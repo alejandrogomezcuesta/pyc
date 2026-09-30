@@ -1,6 +1,5 @@
-# Práctica con Godot 4.7: cinco ejercicios independientes
+# Prácticas de formularios con Godot 4.7
 
-<!-- markdownlint-disable MD010 MD024 MD060 -->
 
 Para la explicación inicial de Godot y la relación con la programación orientada a objetos, consulta [introduccion-godot-poo.md](05-introduccion-godot-poo.md). Este documento contiene únicamente los cinco ejercicios prácticos, cada uno en su propio proyecto.
 
@@ -9,6 +8,14 @@ En esta práctica resolverás cinco ejercicios de operaciones matemáticas con u
 ---
 
 ## Ejercicio 1. Precio total con IVA
+
+### Solución del proyecto
+
+!!! important "Solución"
+    Vamos a descargar primero este proyecto para verlo funcionando y comprobamos que realmente funciona.
+	Después lo crearemos de nuevo para ver los pasos.
+	[Descarga el ejercicio 1: precio total con iva.](ejercicio-1-precio-iva.zip)
+
 
 ### Crear el proyecto
 
