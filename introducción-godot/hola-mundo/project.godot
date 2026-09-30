@@ -1,19 +1,30 @@
 ; Engine configuration file.
-; Godot project for exercise 06.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
 
 config_version=5
 
 [application]
-config/name="Hola Mundo Godot"
-run/main_scene="res://hola-mundo.tscn"
-config/features=PackedStringArray("4.7")
+
+config/name="Hola mundo"
+run/main_scene="uid://bvvu5dcph1iba"
+config/features=PackedStringArray("4.7", "Mobile")
+config/icon="res://icon.svg"
 
 [display]
-window/size/viewport_width=700
-window/size/viewport_height=450
-window/size/window_width_override=700
-window/size/window_height_override=450
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
 
 [rendering]
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="mobile"
