@@ -1,9 +1,10 @@
 extends Control
 
-@onready var titulo: Label = $CenterContainer/VBoxContainer/Titulo
+@onready var titulo: Label = $VBoxContainer/Titulo
+@onready var animarButton: Button = $VBoxContainer/AnimarButton
 
 func _ready() -> void:
-	$CenterContainer/VBoxContainer/AnimarButton.pressed.connect(animar_titulo)
+	animarButton.pressed.connect(animar_titulo)
 
 func animar_titulo() -> void:
 	var animacion: Tween = create_tween()
