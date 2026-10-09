@@ -1,4 +1,4 @@
-# Práctica con Godot 4.7: cinco ejercicios independientes
+# Ejercicios de formularios
 
 <!-- markdownlint-disable MD010 MD024 MD060 -->
 

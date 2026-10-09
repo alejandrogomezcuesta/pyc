@@ -1,5 +1,5 @@
 site_name: Programación y Computación
-site_description: PYC - 2º de Bachillerato
+site_description: PyC
 site_url: https://alejandrogomezcuesta.github.io/pyc/
 repo_url: https://github.com/alejandrogomezcuesta/pyc
 repo_name: alejandrogomezcuesta/pyc
@@ -11,6 +11,7 @@ theme:
   name: material
   language: es
   features:
+    - navigation.footer
     - navigation.instant
     - navigation.sections
     - navigation.expand
@@ -19,6 +20,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.code.select 
     - content.code.annotate
     - toc.follow
   font:
@@ -44,9 +46,6 @@ plugins:
 markdown_extensions:
   - admonition
   - attr_list
-  - codehilite:
-      guess_lang: false
-      use_pygments: true
   - def_list
   - footnotes
   - md_in_html
@@ -59,7 +58,11 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -67,5 +70,8 @@ markdown_extensions:
 
 extra:
   generator: false
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.esm.min.mjs
 
 # MkDocs genera automáticamente la navegación a partir de docs/ al omitir nav:.
