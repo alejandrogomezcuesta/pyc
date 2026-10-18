@@ -1,7 +1,7 @@
 # Ejercicios de formularios
 
 
-Para la explicación inicial de Godot y la relación con la programación orientada a objetos, consulta [introduccion-godot-poo.md](05-introduccion-godot-poo.md). Este documento contiene únicamente los cinco ejercicios prácticos, cada uno en su propio proyecto.
+Para la explicación inicial de Godot y la relación con la programación orientada a objetos, consulta [introduccion-godot-poo.md](01-introduccion-godot-poo.md). Este documento contiene únicamente los cinco ejercicios prácticos, cada uno en su propio proyecto.
 
 En esta práctica resolverás cinco ejercicios de operaciones matemáticas con una interfaz sencilla. Cada ejercicio comienza en un proyecto distinto, por lo que puedes realizarlo y entregarlo sin crear ninguno de los otros.
 
