@@ -6,7 +6,7 @@ En esta práctica vamos a empezar con un proyecto vacío y seguir los pasos de e
 
 [Presentación para crear un movimiento simple de un objeto](https://docs.google.com/presentation/d/1ovWkO0nFHZhhovJoLaj6CGc15kFUszM-LxxrW8Mhf9I/edit?usp=sharing)
 
-Las flechas [a la izquierda](arrow_left.png) y [a la derecha](arrow_right.png) puedes en los enlaces.
+Las imágenes de las flechas [a la izquierda](arrow_left.png) y [a la derecha](arrow_right.png) puedes descargarlas en los enlaces.
 
 Si por algún motivo no te sale la práctica, [te la puedes bajar desde aquí](izquierda-derecha.zip). Aun así, tienes que echarle un vistazo a la presentación para saber cómo se llega ahí.
 
